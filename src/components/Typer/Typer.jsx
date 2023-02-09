@@ -34,7 +34,7 @@ const Typer = ({
             }
           }
         }
-        if (Math.random() > 0.5) {
+        if (Math.random() > 0.001) {
           let row = Math.floor(Math.random() * 10);
           let col = Math.floor(Math.random() * 10);
           let pos = Math.floor(Math.random() * words.length);

@@ -10,6 +10,7 @@ import CountDown from "./components/CountDown/CountDown.jsx";
 import Typer from "./components/Typer/Typer.jsx";
 import WordsWindow from "./components/WordsWindow/WordsWindow.jsx";
 import { fillMatrix } from "./modules/WordGeneration/fillMatrix.jsx";
+import Timer from "./components/Timer/Timer.jsx";
 
 const App = () => {
   const [active, setActive] = useState(true);
@@ -20,6 +21,7 @@ const App = () => {
   const [matrix, setMatrix] = useState(fillMatrix());
   const [words, setWords] = useState([]);
   const [languages, setLanguages] = useState("eng");
+  const [timer, setTimer] = useState(60);
 
   useCounter(isCount, countDown, setCountDown);
   useEffect(() => {
@@ -56,7 +58,9 @@ const App = () => {
         setWordsTrie={setWordsTrie}
         countDown={countDown}
         languages={languages}
+        timer={timer}
       />
+      <Timer countDown={countDown} timer={timer} setTimer={setTimer} />
       <Footer />
     </div>
   );

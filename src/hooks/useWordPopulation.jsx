@@ -11,7 +11,7 @@ export const useWordPopulation = (
   useEffect(() => {
     if (words.length) {
       const copy = [...matrix];
-      for (let i = 0; i < 14; i++) {
+      for (let i = 0; i < 20; i++) {
         let row = Math.floor(Math.random() * 10);
         let col = Math.floor(Math.random() * 10);
         let pos = Math.floor(Math.random() * words.length);

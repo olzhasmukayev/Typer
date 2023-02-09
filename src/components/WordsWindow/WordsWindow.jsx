@@ -12,6 +12,7 @@ const WordsWindow = ({
   countDown,
   setWordsTrie,
   languages,
+  timer
 }) => {
   const windowSize = useRef(null);
   useFetcher(setWords, languages);
@@ -20,7 +21,7 @@ const WordsWindow = ({
   return (
     <div
       ref={windowSize}
-      className={countDown == 0 ? "words-window-active" : "words-window"}
+      className={countDown == 0 && timer != 0 ? "words-window-active" : "words-window"}
     >
       {matrix.map((el, idx) => (
         <div className="cell-row" key={idx}>

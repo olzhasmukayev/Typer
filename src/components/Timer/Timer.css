@@ -1,0 +1,14 @@
+.timer-active {
+  display: flex;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.timer {
+  display: none; 
+}
