@@ -1,0 +1,52 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 53%;
+  width: 40%;
+  border: 1px solid #000000;
+  z-index: 9999;
+  overflow: scroll;
+}
+
+.modal-content {
+  height: 100%;
+  max-height: inherit;
+  margin: 25px;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-title {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.modal-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-text {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.modal-buttons {
+  margin-top: 15px;
+}
+
+.modal-buttons * {
+  margin-right: 10px;
+}
+
+.modal-hide {
+  display: none;
+}
+
+.select {
+  margin-top: 15px;
+}

@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto Mono", monospace;
+}
+
+.hedaer-left {
+  display: flex;
+}
+
+.hedaer-right {
+  display: flex;
+}
+
+.hedaer-right p {
+  margin-left: 15px;
+}
+
+.hedaer:first-child {
+  margin-left: -15px;
+}
+
+.hedaer:last-child {
+  margin-left: -15px;
+}

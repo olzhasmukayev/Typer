@@ -1,0 +1,12 @@
+.footer {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+  height: 5vh;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  margin-bottom: 10px;
+}

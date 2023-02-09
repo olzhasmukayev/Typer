@@ -1,0 +1,13 @@
+.count-down {
+  display: none;
+}
+
+.count-down-active {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto Mono", monospace;
+  font-size: 34px;
+  display: block;
+}

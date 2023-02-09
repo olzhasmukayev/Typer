@@ -1,0 +1,18 @@
+.typer {
+  display: none;
+}
+
+.typer-active {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto Mono", monospace;
+  width: 50%;
+  height: 7%;
+  display: block;
+}
+
+.selected {
+  color: green;
+}

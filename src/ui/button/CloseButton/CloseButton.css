@@ -1,0 +1,8 @@
+.close-btn {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  font-size: 45px;
+  font-weight: 500;
+}

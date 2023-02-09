@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.game-btn {
+  background-color: black;
+  border: 2px solid rgb(246, 246, 14);
+  color: white;
+  padding: 5px 10px;
+  box-shadow: 0;
+  transition: box-shadow 0.15s linear;
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+}
+
+.game-btn:hover {
+  box-shadow: 5px 3px 3px rgb(246, 246, 14);
+}

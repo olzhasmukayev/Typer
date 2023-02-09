@@ -1,0 +1,28 @@
+.words-window {
+  display: none;
+}
+
+.words-window-active {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  flex: auto;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.cell-row {
+  display: flex;
+  width: 100%;
+}
