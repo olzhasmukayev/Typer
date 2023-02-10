@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { fillMatrix } from "../modules/WordGeneration/fillMatrix.jsx";
 
 export const useWordPopulation = (
   words,
@@ -26,5 +27,12 @@ export const useWordPopulation = (
       setMatrix(copy);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [words, languages]);
+  }, [words]);
+
+  useEffect(() => {
+    if (words.length) {
+      const copy = fillMatrix();
+      setMatrix(copy);
+    }
+  }, [languages])
 };

@@ -3,7 +3,7 @@ import GameButton from "../../ui/button/GameButton/GameButton";
 import CloseButton from "../../ui/button/CloseButton/CloseButton";
 import MainSelect from "../../ui/select/MainSelect/MainSelect";
 
-const LANGS = ["ru", "eng", "kz", "it"];
+const LANGS = ["eng", "ru", "kz", "it"];
 
 const Modal = ({ active, setActive, setIsCount, setLanguages }) => {
   return (

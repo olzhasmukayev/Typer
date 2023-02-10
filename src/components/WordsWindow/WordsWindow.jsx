@@ -16,7 +16,7 @@ const WordsWindow = ({
 }) => {
   const windowSize = useRef(null);
   useFetcher(setWords, languages);
-  useWordPopulation(words, matrix, setMatrix, wordsTrie, setWordsTrie);
+  useWordPopulation(words, matrix, setMatrix, wordsTrie, setWordsTrie, languages);
 
   return (
     <div
